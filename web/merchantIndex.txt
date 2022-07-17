@@ -1,0 +1,29 @@
+<%@page contentType="text/html;charset=UTF-8"%>
+<style>
+    #jerry{
+       font-family:隶书;font-size:35;color:powderblue;
+    }
+    #tom{
+       font-family:楷体;font-size:20;color:#8800ff;
+    }
+    body{
+       background:url("image/back.jpg");
+       background-size: 1190px 620px;
+       background-position:50% 50%;
+    }
+</style>
+<div align="center">
+<p id=jerry>无忧杂货
+<table cellSpacing="1" cellPadding="1" width=650" align="center" border="1">
+     <tr valign="bottom">
+        <td id="tom"><a href="goodsServlet">商品信息</a></td>
+        <td id="tom"><a href="Upload.jsp">上架商品</a></td>
+        <td id="tom"><a href="lookOrderForm.jsp">下单情况</a></td>
+        <td id="tom"><a href="Chatting.jsp">查看留言</a></td>
+        <td id="tom"><a href="deleteGoods.jsp">下架商品</a></td>
+        <td id="tom"><a href="merChantIndex.jsp">主页</a></td>
+        <td id="tom"><a href="exitServlet">退出登录</a></td>
+      </tr>
+</table>
+</p>
+</div>
